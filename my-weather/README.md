@@ -1,12 +1,17 @@
-# React + Vite
+🌤 Dreamy Weather Forecast App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dreamy Weather is a beautifully designed, animated weather forecast application built with React and Vite, styled using Tailwind CSS. It fetches real-time weather data using the OpenWeatherMap API, presenting it in a soft, dreamy UI that’s both aesthetic and responsive.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✨ Features
+Live Weather Forecast
+Enter any city name to get the current weather, temperature, and condition in either Celsius or Fahrenheit.
+Unit Toggle
+Easily switch between °C and °F with a smooth, intuitive button.
+Dreamy Design
+A gentle gradient background and subtle shadows give the app a calming, dreamlike feel.
+Animated UI
+Smooth transitions and interactive elements elevate the user experience.
+Error Handling
+Gracefully handles invalid API keys, missing inputs, and incorrect city names with user-friendly messages.
+Environment Variable Support
+The API key is securely stored in a .env file and loaded using Vite's environment system.
